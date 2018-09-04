@@ -15,4 +15,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - script: echo $(greeting)
+- script: echo $(greeting) > MyGreeting.txt
+- script: echo $(secretGreeting)
 - script: echo $(secretGreeting) > MySecretGreeting.txt
