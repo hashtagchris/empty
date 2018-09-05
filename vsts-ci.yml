@@ -1,6 +1,4 @@
 pool: 'Default'
 
 steps:
-- script: echo $(secretGreeting) > MySecretGreeting.txt
-- script: dir MySecretGreeting.txt
-- script: type MySecretGreeting.txt
+- script: echo hello world.
