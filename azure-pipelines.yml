@@ -15,3 +15,4 @@ steps:
     echo See https://aka.ms/yaml
     echo $(greeting) world!
   displayName: 'Run a multi-line script'
+
