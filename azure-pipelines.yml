@@ -3,7 +3,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-pool: 'Default'
+pool:
+  queue: 'Ubuntu 16.04'
 
 steps:
 - script: echo Hello, world!
@@ -12,4 +13,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    echo $(greeting) world!
   displayName: 'Run a multi-line script'
